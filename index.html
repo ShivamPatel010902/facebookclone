@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Dancing+Script&family=Lobster&family=Lobster+Two:wght@400;700&family=Montserrat:ital,wght@1,300&family=Playfair+Display:ital@1&family=Redressed&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>SocialMedia</title>
+</head>
+
+<body>
+    <nav class="topNavigation">
+        <div class="navigationiteams">
+            <div class="navigationiteamsleft">
+                <div class="openmenubar" onclick="settingmenuTogglefornav()">
+                    <i class="bi bi-list"></i>
+                </div>
+                <div class="setting-menu_1">
+                    <div class="left">
+                        <div class="importentlinks">
+                            <a href="" class="importantlinksiteams"><i class="bi bi-newspaper"></i>Latest News</a>
+                            <a href="" class="importantlinksiteams"><i class="bi bi-people-fill"></i> Friends</a>
+                            <a href="" class="importantlinksiteams"><i class="bi bi-boxes"></i>Group</a>
+                            <a href="" class="importantlinksiteams"><i class="bi bi-cart-dash-fill"></i>Marketplace</a>
+                            <a href="" class="importantlinksiteams"><i class="bi bi-collection-play"></i> Watch</a>
+                            <a href='' style="color: blue;">See More</a>
+                        </div>
+                        <hr>
+                        <div class="importentlinks">
+                            <a href="" class="importantlinksiteams">Your Shortcuts</a>
+                            <a href="" class="importantlinksiteams"><img src="./images/webedeveloper.jpg" alt="">Web
+                                Developers</a>
+                            <a href="" class="importantlinksiteams"> <img src="./images/web design1.jpg" alt="">Web
+                                Design
+                                Course</a>
+                            <a href="" class="importantlinksiteams"> <img src="./images/full stack developer.png"
+                                    alt="">Full Stack Developer</a>
+                            <a href="" class="importantlinksiteams"> <img src="./images/web expert2.jpg" alt="">Website
+                                Experts</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="logo">
+                    <img src="./images/A (1).png" alt="">
+                </div>
+                <ul class="navigationicons">
+                    <li><i class="bi bi-bell"></i>
+                    <li><i class="bi bi-envelope"></i></li>
+                    <li><i class="bi bi-person-video"></i></li>
+                    <li><i class="bi bi-headset"></i></li>
+                    <li><i class="bi bi-collection-play-fill"></i></li>
+                </ul>
+            </div>
+            <div class="navigationiteamsright">
+                <div class="searchbar">
+                    <i class="bi bi-search"></i> <input type="text" placeholder="Search" class="input-box">
+                </div>
+                <div class="usericon online" onclick="settingmenuToggle()">
+                    <img src="./images/face4.jpg" alt="" class="userimg">
+                </div>
+            </div>
+        </div>
+        <div class="setting-menu">
+            <div class="setting-menu-1">
+                <div class="profileimg">
+                    <div class="leftprofile">
+                        <img src="./images/face4.jpg" alt="">
+                        <div class="profiletext">
+                            <h2>Rashmika Nichoisan</h2>
+                            <p style="color:blue">See your Profile</p>
+                        </div>
+                    </div>
+                    <div class="rightprofile">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="setting-menu-1">
+                <div class="profileimg">
+                    <div class="leftprofile">
+                        <img src="./images/feedback2.png" alt="">
+                        <div class="profiletext">
+                            <h2>Give Feedback</h2>
+                            <p style="color:blue">Help us to improve the new design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="setting-menu-2">
+                <div class="profileimg">
+                    <div class="leftprofile">
+                        <img src="./images/settingicon.png" alt="">
+                        <div class="profiletext textedit">
+                            <p style="color: lightgray">Settings & Privacy</p>
+                        </div>
+                    </div>
+                    <div class="rightprofile arrowalign">
+                        <i class="bi bi-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="setting-menu-2">
+                <div class="profileimg">
+                    <div class="leftprofile">
+                        <img src="./images/help and support icon.png" alt="">
+                        <div class="profiletext textedit">
+                            <p style="color: lightgray">Help & Support</p>
+                        </div>
+                    </div>
+                    <div class="rightprofile arrowalign">
+                        <i class="bi bi-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="setting-menu-2">
+                <div class="profileimg">
+                    <div class="leftprofile">
+                        <img src="./images/d and A icon.jpg" alt="">
+                        <div class="profiletext textedit">
+                            <p style="color: lightgray">Display & Accessibility</p>
+                        </div>
+                    </div>
+                    <div class="rightprofile arrowalign">
+                        <i class="bi bi-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="setting-menu-2">
+                <div class="profileimg">
+                    <div class="leftprofile">
+                        <img src="./images/logout icon.webp" alt="">
+                        <div class="profiletext textedit">
+                            <p style="color: lightgray">Logout</p>
+                        </div>
+                    </div>
+                    <div class="rightprofile arrowalign">
+                        <i class="bi bi-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="mainbodycontainer">
+        <div class="leftsidecontainer">
+            <div class="importentlinks">
+                <a href="" class="importantlinksiteams"><i class="bi bi-newspaper"></i>Latest News</a>
+                <a href="" class="importantlinksiteams"><i class="bi bi-people-fill"></i> Friends</a>
+                <a href="" class="importantlinksiteams"><i class="bi bi-boxes"></i>Group</a>
+                <a href="" class="importantlinksiteams"><i class="bi bi-cart-dash-fill"></i>Marketplace</a>
+                <a href="" class="importantlinksiteams"><i class="bi bi-collection-play"></i> Watch</a>
+                <a href='' style="color: blue;">See More</a>
+            </div>
+            <hr>
+            <div class="importentlinks">
+                <a href="" class="importantlinksiteams">Your Shortcuts</a>
+                <a href="" class="importantlinksiteams"><img src="./images/webedeveloper.jpg" alt="">Web
+                    Developers</a>
+                <a href="" class="importantlinksiteams"> <img src="./images/web design1.jpg" alt="">Web Design
+                    Course</a>
+                <a href="" class="importantlinksiteams"> <img src="./images/full stack developer.png" alt="">Full Stack
+                    Developer</a>
+                <a href="" class="importantlinksiteams"> <img src="./images/web expert2.jpg" alt="">Website
+                    Experts</a>
+            </div>
+        </div>
+        <div class="maincontainer">
+            <div class="story">
+                <div class="story1">
+                    <i class="bi bi-plus-circle-fill"></i>
+                    <p>Add Story</p>
+                </div>
+                <div class="story2">
+                    <img src="./images/face1.jpg" alt="">
+                </div>
+                <div class="story3">
+                    <img src="./images/face2.jpg" alt="">
+                </div>
+                <div class="story4">
+                    <img src="./images/face3.jpg" alt="">
+                </div>
+                <div class="story5">
+                    <img src="./images/face4.jpg" alt="">
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profileimg">
+                    <div class="leftprofile">
+                        <img src="./images/face4.jpg" alt="">
+                        <div class="profiletext">
+                            <h2>Rashmika Nichoisan</h2>
+                            <p>Public <i class="bi bi-caret-down-fill"></i></p>
+                        </div>
+                    </div>
+                    <div class="rightprofile">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+                <div class="comment">
+                    <textarea name="" id="" cols="45" rows="3" placeholder="What's in your mind Rashmika?"
+                        style="font-size: 18px;"></textarea>
+                </div>
+                <hr class="endline">
+                <div class="bottomicons">
+                    <i class="bi bi-camera-fill"></i>
+                    <p> Live Vedio</p>
+                    <i class="bi bi-camera-video-fill"></i>
+                    <p> Photo/Vedio</p>
+                    <i class="bi bi-emoji-laughing"></i>
+                    <p>Feling/Activity</p>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profileimg">
+                    <div class="leftprofile">
+                        <img src="./images/face4.jpg" alt="">
+                        <div class="profiletext">
+                            <h2>Rashmika Nichoisan</h2>
+                            <p>June 24 2022 14:47 pm</p>
+                        </div>
+                    </div>
+                    <div class="rightprofile">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+                <P class="posttext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit omnis unde
+                    maxime delectus
+                    necessitatibus eum id.</P>
+                <img src="./images/postimg1.jpg" class="postimg1" alt="">
+                <div class="multipaloption">
+                    <div class="leftoption">
+                        <p><i class="bi bi-hand-thumbs-up"></i>47</p>
+                        <p><i class="bi bi-hand-thumbs-down"> </i>0</p>
+                        <p><i class="bi bi-chat-right-text"></i>45</p>
+                        <p><i class="bi bi-reply-all-fill"></i></p>
+                    </div>
+                    <div class="rightoption">
+                        <div class="profileimg">
+                            <img src="./images/face4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profileimg">
+                    <div class="leftprofile">
+                        <img src="./images/face4.jpg" alt="">
+                        <div class="profiletext">
+                            <h2>Rashmika Nichoisan</h2>
+                            <p>March 21 2022 12:47 pm</p>
+                        </div>
+                    </div>
+                    <div class="rightprofile">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+                <P class="posttext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit omnis unde
+                    maxime delectus
+                    necessitatibus eum id.</P>
+                <img src="./images/postimg7.jpg" class="postimg1" alt="">
+                <div class="multipaloption">
+                    <div class="leftoption">
+                        <p><i class="bi bi-hand-thumbs-up"></i>90</p>
+                        <p><i class="bi bi-hand-thumbs-down"> </i>0</p>
+                        <p><i class="bi bi-chat-right-text"></i>450</p>
+                        <p><i class="bi bi-reply-all-fill"></i></p>
+                    </div>
+                    <div class="rightoption">
+                        <div class="profileimg">
+                            <img src="./images/face4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profileimg">
+                    <div class="leftprofile">
+                        <img src="./images/face4.jpg" alt="">
+                        <div class="profiletext">
+                            <h2>Rashmika Nichoisan</h2>
+                            <p>September 01 2022 13:47 pm</p>
+                        </div>
+                    </div>
+                    <div class="rightprofile">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+                <P class="posttext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit omnis unde
+                    maxime delectus
+                    necessitatibus eum id.</P>
+
+                <img src="./images/postimg3.jpg" class="postimg1" alt="">
+                <div class="multipaloption">
+                    <div class="leftoption">
+                        <p><i class="bi bi-hand-thumbs-up"></i>45</p>
+                        <p><i class="bi bi-hand-thumbs-down"> </i>0</p>
+                        <p><i class="bi bi-chat-right-text"></i>70</p>
+                        <p><i class="bi bi-reply-all-fill"></i></p>
+                    </div>
+                    <div class="rightoption">
+                        <div class="profileimg">
+                            <img src="./images/face4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profileimg">
+                    <div class="leftprofile">
+                        <img src="./images/face4.jpg" alt="">
+                        <div class="profiletext">
+                            <h2>Rashmika Nichoisan</h2>
+                            <p>June 01 2022 13:47 pm</p>
+                        </div>
+                    </div>
+                    <div class="rightprofile">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+
+                <P class="posttext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit omnis unde
+                    maxime delectus
+                    necessitatibus eum id.</P>
+                <img src="./images/postimg5.jpg" class="postimg1" alt="">
+                <div class="multipaloption">
+                    <div class="leftoption">
+                        <p><i class="bi bi-hand-thumbs-up"></i>82</p>
+                        <p><i class="bi bi-hand-thumbs-down"> </i>0</p>
+                        <p><i class="bi bi-chat-right-text"></i>40</p>
+                        <p><i class="bi bi-reply-all-fill"></i></p>
+                    </div>
+                    <div class="rightoption">
+                        <div class="profileimg">
+                            <img src="./images/face4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profileimg">
+                    <div class="leftprofile">
+                        <img src="./images/face4.jpg" alt="">
+                        <div class="profiletext">
+                            <h2>Rashmika Nichoisan</h2>
+                            <p>Octumber 01 2022 13:47 pm</p>
+                        </div>
+                    </div>
+                    <div class="rightprofile">
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+                <P class="posttext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit omnis unde
+                    maxime delectus
+                    necessitatibus eum id.</P>
+                <img src="./images/postimg6.jpg" class="postimg1" alt="">
+                <div class="multipaloption">
+                    <div class="leftoption">
+                        <p><i class="bi bi-hand-thumbs-up"></i>85</p>
+                        <p><i class="bi bi-hand-thumbs-down"> </i>0</p>
+                        <p><i class="bi bi-chat-right-text"></i>30</p>
+                        <p><i class="bi bi-reply-all-fill"></i></p>
+                    </div>
+                    <div class="rightoption">
+                        <div class="profileimg">
+                            <img src="./images/face4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <p class="seemorebtn">Load More</p>
+            </div>
+        </div>
+        <div class="rightsidecontainer">
+            <div class="rightsidecontainerheading">
+                <h3 style="color: gray;">Events</h3>
+                <a href="">See All</a>
+            </div>
+            <div class="artical">
+                <div class="date">
+                    <h2>20</h2>
+                    <span>March</span>
+                </div>
+                <div class="place">
+                    <h3 style="color: rgb(65, 63, 63);">Social Media</h3>
+                    <a href=""><i class="bi bi-geo-alt-fill"></i>Bhopal Chinar Park</a>
+                    <a href="" style=" color:blue">More Info</a>
+                </div>
+            </div>
+            <div class="artical">
+                <div class="date">
+                    <h2>12</h2>
+                    <span>September</span>
+                </div>
+                <div class="place">
+                    <h3 style="color: rgb(65, 63, 63);">Mobile Marketing</h3>
+                    <a href=""><i class="bi bi-geo-alt-fill"></i>Bhopal NEWMARKET </a>
+                    <a href="" style=" color:blue">More Info</a>
+                </div>
+            </div>
+            <div class="rightsidecontainerheading">
+                <h3 style="color: gray;">Advertisement</h3>
+                <a href="">Close</a>
+            </div>
+            <div>
+                <img src="./images/advertisment.jpg" class="adimage" alt="">
+            </div>
+            <div class="rightsidecontainerheading">
+                <h3 style="color: gray;">Conversation</h3>
+                <a href="">Hide chat</a>
+            </div>
+            <div class="convertion">
+                <div class="person1 ">
+                    <div class="onlineedit">
+                        <img src="./images/person1.jpg" class="person1img" alt="">
+                    </div>
+                    <p>Sushant Sing Rajput</p>
+                </div>
+                <div class="person2">
+                    <div class="onlineedit">
+                        <img src="./images/person2.jpg" class="person2img " alt="">
+                    </div>
+                    <p>Alison Mina</p>
+                </div>
+                <div class="person2">
+                    <div class="onlineedit">
+                        <img src="./images/person6.jpg" class="person2img " alt="">
+                    </div>
+                    <p>Satyam Patel</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var settingMenu = document.querySelector(".setting-menu");
+        function settingmenuToggle() {
+            settingMenu.classList.toggle("setting-menu-height");
+        }
+        var settingMenufornav = document.querySelector(".setting-menu_1");
+        function settingmenuTogglefornav() {
+            settingMenufornav.classList.toggle("setting-menu-height_1");
+        }
+    </script>
+</body>
+
+</html>
